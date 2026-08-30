@@ -2,22 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.44.0-stable",
-      "platform": "android",
-      "version": "0.44.0",
-      "title": "HAL Mobile 0.44.0 - Suivi Fitbit dans le temps",
-      "changelog": [
-        "Courbes Fitbit animees et colorees, valeurs temporelles, interpretations et conseils prudents, synchronises avec HAL PC."
-      ],
-      "artifactName": "HAL_Mobile_0.44.0.apk",
-      "sha256": "17fce4680a892efd3c7af66f04aa8469af1c19273538c18df40046519bfa1957",
-      "signature": "MEYCIQCBIOArmlswB+I+ws1kKX/FbB1O1DOzO6oUJ4Ak7SDO0AIhANrYoDtR5YUxgOkCfZpKqa9PRJhTO9o0QLm54sUj8hKS",
-      "sizeBytes": 3582678,
-      "publishedAt": "2026-08-30T04:45:48+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.44.0.apk"
-    },
-    {
       "id": "android-0.44.1-stable",
       "platform": "android",
       "version": "0.44.1",
@@ -52,6 +36,24 @@
       "publishedAt": "2026-08-30T05:22:18+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.45.0.apk"
+    },
+    {
+      "id": "android-0.46.0-stable",
+      "platform": "android",
+      "version": "0.46.0",
+      "title": "HAL Mobile 0.46.0",
+      "changelog": [
+        "Nouveau splash MONOLITHE SYSTEM adapté au téléphone.",
+        "Temps de chargement minimal de quatre secondes conservé.",
+        "Progression réelle sur 100 et messages geek décoratifs séparés."
+      ],
+      "artifactName": "HAL_Mobile_0.46.0.apk",
+      "sha256": "d0f97a06dfe1bc2b09f6d437c51fee97fe56a93a494e08d55a4fe0ab6d8a336f",
+      "signature": "MEYCIQDArx2/GzvhKa7AYWad0xwfP+p71oFO9iNl9LETHilkNwIhAO9+sdRKJF4F11uzb4knE3tvQWxPw9ayCP51cTD0KmyH",
+      "sizeBytes": 2266290,
+      "publishedAt": "2026-08-30T05:45:56+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.46.0.apk"
     }
   ]
 }
