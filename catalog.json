@@ -2,24 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.48.0-stable",
-      "platform": "android",
-      "version": "0.48.0",
-      "title": "HAL Mobile 0.48.0",
-      "changelog": [
-        "Nouvelle introduction video Monolithe Systems de 8,08 secondes.",
-        "Signature finale superposee et ecran statique conserve en secours.",
-        "Progression reelle et diagnostics de demarrage toujours prioritaires."
-      ],
-      "artifactName": "HAL_Mobile_0.48.0.apk",
-      "sha256": "5ff9fa15f0fc6123b414830083c350b9ebc815097fdc3a7636aa42bf284d344f",
-      "signature": "MEUCIQDRcO1K6zsV+gEWEKl2LFhS4NH07HD1sAKgmI5Keuk53QIganKrq3ogXdetj6YspO4v8aclYlhFyCig92XEZwa3u2s=",
-      "sizeBytes": 16089382,
-      "publishedAt": "2026-08-30T07:59:30+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.0.apk"
-    },
-    {
       "id": "android-0.48.1-stable",
       "platform": "android",
       "version": "0.48.1",
@@ -54,6 +36,23 @@
       "publishedAt": "2026-08-30T08:32:20+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.2.apk"
+    },
+    {
+      "id": "android-0.48.3-stable",
+      "platform": "android",
+      "version": "0.48.3",
+      "title": "HAL Mobile 0.48.3 - historique système 24 heures",
+      "changelog": [
+        "Version commune avec HAL PC 0.48.3.",
+        "Les courbes système PC disposent désormais d'une échelle persistante de 24 heures."
+      ],
+      "artifactName": "HAL_Mobile_0.48.3.apk",
+      "sha256": "02543c8655258de18d92c9ec4234d76f9ec0d22948979f3732283aa33102ede1",
+      "signature": "MEUCIQChvYbMPspatnrQgP6Jdbi2y32rjw6mpIlr+HW8phFnGAIgf0PFwsVXWOnc6xQHEGNj014pUhSvzXFqI/e7SYZvoV8=",
+      "sizeBytes": 4098962,
+      "publishedAt": "2026-08-30T08:39:13+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.3.apk"
     }
   ]
 }
