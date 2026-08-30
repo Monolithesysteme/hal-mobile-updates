@@ -2,24 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.47.0-stable",
-      "platform": "android",
-      "version": "0.47.0",
-      "title": "HAL Mobile 0.47.0",
-      "changelog": [
-        "Les réponses GPT aux questions écrites sont désormais lues à haute voix.",
-        "Le premier audio frais après le démarrage n'est plus confondu avec un ancien audio en attente.",
-        "La lecture conserve la voix OpenAI choisie et l'animation réelle de l'œil."
-      ],
-      "artifactName": "HAL_Mobile_0.47.0.apk",
-      "sha256": "5411546a47a7a2f5c15972d3cab511af9a498e888bec531d45192ad788f9c704",
-      "signature": "MEQCIH7DuGIv+PY3PfrlGuu5vFFlw9enBOZ6rAuFvSXxZSdrAiBjrYvmVOq9snSRu3ygIiBFTDk8xMNbUiqPAZZa7ICFNQ==",
-      "sizeBytes": 2266782,
-      "publishedAt": "2026-08-30T07:23:53+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.47.0.apk"
-    },
-    {
       "id": "android-0.47.1-stable",
       "platform": "android",
       "version": "0.47.1",
@@ -53,6 +35,24 @@
       "publishedAt": "2026-08-30T07:59:30+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.0.apk"
+    },
+    {
+      "id": "android-0.48.1-stable",
+      "platform": "android",
+      "version": "0.48.1",
+      "title": "HAL Mobile 0.48.1",
+      "changelog": [
+        "Introduction vidéo verticale 720 × 1280 sans superposition de scènes.",
+        "Ressource H.264/AAC recadrée sur le monolithe et optimisée pour le téléphone.",
+        "Image statique conservée uniquement comme repli sécurisé."
+      ],
+      "artifactName": "HAL_Mobile_0.48.1.apk",
+      "sha256": "3826b13332671f7f0646c2ab74d77aee5f8d0f1394879713685946db198009e0",
+      "signature": "MEQCIBCWDnMME/tErjyaq5YBWx3T40wWMtJ78esnc2JPCZDuAiB8nlV3GwPEweCtjzicF1qUJntrHe2kpvjHJcgDtudMoA==",
+      "sizeBytes": 4098458,
+      "publishedAt": "2026-08-30T08:20:11+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.1.apk"
     }
   ]
 }
