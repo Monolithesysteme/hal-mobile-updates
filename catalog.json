@@ -1,0 +1,57 @@
+{
+  "format": "hal-update-catalog-v1",
+  "releases": [
+    {
+      "id": "android-0.44.0-stable",
+      "platform": "android",
+      "version": "0.44.0",
+      "title": "HAL Mobile 0.44.0 - Suivi Fitbit dans le temps",
+      "changelog": [
+        "Courbes Fitbit animees et colorees, valeurs temporelles, interpretations et conseils prudents, synchronises avec HAL PC."
+      ],
+      "artifactName": "HAL_Mobile_0.44.0.apk",
+      "sha256": "17fce4680a892efd3c7af66f04aa8469af1c19273538c18df40046519bfa1957",
+      "signature": "MEYCIQCBIOArmlswB+I+ws1kKX/FbB1O1DOzO6oUJ4Ak7SDO0AIhANrYoDtR5YUxgOkCfZpKqa9PRJhTO9o0QLm54sUj8hKS",
+      "sizeBytes": 3582678,
+      "publishedAt": "2026-08-30T04:45:48+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.44.0.apk"
+    },
+    {
+      "id": "android-0.44.1-stable",
+      "platform": "android",
+      "version": "0.44.1",
+      "title": "HAL Mobile 0.44.1 - Hors connexion et clavier",
+      "changelog": [
+        "Un bandeau très visible indique qu’aucun HAL PC n’est connecté et distingue l’absence d’appairage d’un PC injoignable.",
+        "La saisie, l’envoi GPT et le micro sont verrouillés tant que HAL PC n’est pas réellement joignable.",
+        "Le clavier peut être fermé par une commande dédiée, la touche Retour ou la navigation, qui reste accessible grâce au redimensionnement Android."
+      ],
+      "artifactName": "HAL_Mobile_0.44.1.apk",
+      "sha256": "4d28f78a911fe554f9a12af88480a3c53bd0aee5781fd3cae7f92ef589837335",
+      "signature": "MEUCIQD4f2UMA8dBXmFzhdeDmx0qcoiSlZ5couUewuxp3SVVxgIgBJiIx4wGLisDLdbJKm3PWs22wgJW3EKghBsjl0HwYJU=",
+      "sizeBytes": 3585682,
+      "publishedAt": "2026-08-30T04:59:12+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.44.1.apk"
+    },
+    {
+      "id": "android-0.45.0-stable",
+      "platform": "android",
+      "version": "0.45.0",
+      "title": "HAL Mobile 0.45.0",
+      "changelog": [
+        "Mises à jour cloud signées même lorsque HAL PC est éteint.",
+        "HAL PC reste le canal de secours sur le réseau local.",
+        "Catalogue et APK contrôlés par signature, taille, SHA-256 et certificat Android."
+      ],
+      "artifactName": "HAL_Mobile_0.45.0.apk",
+      "sha256": "63b1d6f583a965730729e46798db2aa5f29a7ad12291573c58f6b3a61f794d52",
+      "signature": "MEQCIBFzOExO+1GPIfvzkRPz4hOejCNp0Wh2lmGe5U/Rj0wnAiAKUka2fBDnvJk8iAsgwrEfhRB27yePwbKLsSALuPu8Ng==",
+      "sizeBytes": 3590466,
+      "publishedAt": "2026-08-30T05:22:18+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.45.0.apk"
+    }
+  ]
+}
