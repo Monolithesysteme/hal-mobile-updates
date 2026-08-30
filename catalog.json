@@ -2,24 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.46.0-stable",
-      "platform": "android",
-      "version": "0.46.0",
-      "title": "HAL Mobile 0.46.0",
-      "changelog": [
-        "Nouveau splash MONOLITHE SYSTEM adapté au téléphone.",
-        "Temps de chargement minimal de quatre secondes conservé.",
-        "Progression réelle sur 100 et messages geek décoratifs séparés."
-      ],
-      "artifactName": "HAL_Mobile_0.46.0.apk",
-      "sha256": "d0f97a06dfe1bc2b09f6d437c51fee97fe56a93a494e08d55a4fe0ab6d8a336f",
-      "signature": "MEYCIQDArx2/GzvhKa7AYWad0xwfP+p71oFO9iNl9LETHilkNwIhAO9+sdRKJF4F11uzb4knE3tvQWxPw9ayCP51cTD0KmyH",
-      "sizeBytes": 2266290,
-      "publishedAt": "2026-08-30T05:45:56+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.46.0.apk"
-    },
-    {
       "id": "android-0.47.0-stable",
       "platform": "android",
       "version": "0.47.0",
@@ -53,6 +35,24 @@
       "publishedAt": "2026-08-30T07:43:30+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.47.1.apk"
+    },
+    {
+      "id": "android-0.48.0-stable",
+      "platform": "android",
+      "version": "0.48.0",
+      "title": "HAL Mobile 0.48.0",
+      "changelog": [
+        "Nouvelle introduction video Monolithe Systems de 8,08 secondes.",
+        "Signature finale superposee et ecran statique conserve en secours.",
+        "Progression reelle et diagnostics de demarrage toujours prioritaires."
+      ],
+      "artifactName": "HAL_Mobile_0.48.0.apk",
+      "sha256": "5ff9fa15f0fc6123b414830083c350b9ebc815097fdc3a7636aa42bf284d344f",
+      "signature": "MEUCIQDRcO1K6zsV+gEWEKl2LFhS4NH07HD1sAKgmI5Keuk53QIganKrq3ogXdetj6YspO4v8aclYlhFyCig92XEZwa3u2s=",
+      "sizeBytes": 16089382,
+      "publishedAt": "2026-08-30T07:59:30+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.0.apk"
     }
   ]
 }
