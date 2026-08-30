@@ -2,24 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.48.2-stable",
-      "platform": "android",
-      "version": "0.48.2",
-      "title": "HAL Mobile 0.48.2 - introduction PC synchronisée",
-      "changelog": [
-        "Version commune avec HAL PC 0.48.2.",
-        "La séquence vidéo PC attend désormais la première image avant de libérer le son.",
-        "L'œil HAL reste masqué jusqu'à la fermeture complète du splash screen."
-      ],
-      "artifactName": "HAL_Mobile_0.48.2.apk",
-      "sha256": "69f6d25ada4034f1def4d6cd960da0ee1e28fa940c758655e31dd037758ef9a9",
-      "signature": "MEQCIB3RHBH7jy3Z72VEl7+aXBMSPUu5D3GG3E0ccZ0w7JIaAiB1oA7zozGSIfGAFQa3BzXeyL3bFijQZkeE/IqhdqShhQ==",
-      "sizeBytes": 4098730,
-      "publishedAt": "2026-08-30T08:32:20+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.2.apk"
-    },
-    {
       "id": "android-0.48.3-stable",
       "platform": "android",
       "version": "0.48.3",
@@ -54,6 +36,23 @@
       "publishedAt": "2026-08-30T08:53:31+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.49.0.apk"
+    },
+    {
+      "id": "android-0.50.0-stable",
+      "platform": "android",
+      "version": "0.50.0",
+      "title": "HAL Mobile 0.50.0 — HAL Atlas",
+      "changelog": [
+        "Nouvel instrument Atlas et partage ponctuel explicitement consenti.",
+        "Aucun suivi en arrière-plan dans cette première version."
+      ],
+      "artifactName": "HAL_Mobile_0.50.0.apk",
+      "sha256": "3ad86c1b7278c40083985fede4eec742dbbae8529ba07208376b6001fb18585c",
+      "signature": "MEYCIQCGsHn0hrrbDusSuCrmlhdPA28AH3PuymIu4C5pInn0jAIhAPsAJVicsrFagOHqfRnhUpHzm6Tp9Y1nxMQ7J9BJmU0S",
+      "sizeBytes": 4108118,
+      "publishedAt": "2026-08-30T09:33:16+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.50.0.apk"
     }
   ]
 }
