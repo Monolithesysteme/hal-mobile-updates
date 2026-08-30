@@ -2,24 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.45.0-stable",
-      "platform": "android",
-      "version": "0.45.0",
-      "title": "HAL Mobile 0.45.0",
-      "changelog": [
-        "Mises à jour cloud signées même lorsque HAL PC est éteint.",
-        "HAL PC reste le canal de secours sur le réseau local.",
-        "Catalogue et APK contrôlés par signature, taille, SHA-256 et certificat Android."
-      ],
-      "artifactName": "HAL_Mobile_0.45.0.apk",
-      "sha256": "63b1d6f583a965730729e46798db2aa5f29a7ad12291573c58f6b3a61f794d52",
-      "signature": "MEQCIBFzOExO+1GPIfvzkRPz4hOejCNp0Wh2lmGe5U/Rj0wnAiAKUka2fBDnvJk8iAsgwrEfhRB27yePwbKLsSALuPu8Ng==",
-      "sizeBytes": 3590466,
-      "publishedAt": "2026-08-30T05:22:18+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.45.0.apk"
-    },
-    {
       "id": "android-0.46.0-stable",
       "platform": "android",
       "version": "0.46.0",
@@ -54,6 +36,23 @@
       "publishedAt": "2026-08-30T07:23:53+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.47.0.apk"
+    },
+    {
+      "id": "android-0.47.1-stable",
+      "platform": "android",
+      "version": "0.47.1",
+      "title": "HAL Mobile 0.47.1",
+      "changelog": [
+        "Version alignee avec HAL PC 0.47.1 et catalogue de mise a jour signe.",
+        "Correctif de presentation PC sans modification de la navigation Mobile."
+      ],
+      "artifactName": "HAL_Mobile_0.47.1.apk",
+      "sha256": "45e43f1baab713bb4cac6486a8dfff0b71ab115bdba13e5b2eaf311abc4bb307",
+      "signature": "MEUCIQCe2wkSrzlQljmqljyPKB0RutwpGLcmozO58AVWE9ZxpwIgNCc3rp2qpQVA6a/H8x6nIZA3ppP/aXb72OQtD/QMm+0=",
+      "sizeBytes": 2267066,
+      "publishedAt": "2026-08-30T07:43:30+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.47.1.apk"
     }
   ]
 }
