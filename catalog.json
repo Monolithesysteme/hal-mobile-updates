@@ -2,23 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.50.0-stable",
-      "platform": "android",
-      "version": "0.50.0",
-      "title": "HAL Mobile 0.50.0 — HAL Atlas",
-      "changelog": [
-        "Nouvel instrument Atlas et partage ponctuel explicitement consenti.",
-        "Aucun suivi en arrière-plan dans cette première version."
-      ],
-      "artifactName": "HAL_Mobile_0.50.0.apk",
-      "sha256": "3ad86c1b7278c40083985fede4eec742dbbae8529ba07208376b6001fb18585c",
-      "signature": "MEYCIQCGsHn0hrrbDusSuCrmlhdPA28AH3PuymIu4C5pInn0jAIhAPsAJVicsrFagOHqfRnhUpHzm6Tp9Y1nxMQ7J9BJmU0S",
-      "sizeBytes": 4108118,
-      "publishedAt": "2026-08-30T09:33:16+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.50.0.apk"
-    },
-    {
       "id": "android-0.51.0-stable",
       "platform": "android",
       "version": "0.51.0",
@@ -57,6 +40,26 @@
       "publishedAt": "2026-08-31T05:38:00+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.51.1.apk"
+    },
+    {
+      "id": "android-0.52.0-stable",
+      "platform": "android",
+      "version": "0.52.0",
+      "title": "HAL Mobile 0.52.0 — Trajets Atlas automatiques",
+      "changelog": [
+        "Détection automatique à faible consommation des départs à pied, à vélo et en véhicule.",
+        "GPS précis toutes les 10 secondes ou tous les 25 mètres pendant un trajet confirmé.",
+        "Rejet des positions imprécises au-delà de 100 mètres et clôture automatique après immobilité.",
+        "Archivage chiffré hors ligne et synchronisation différée dès le retour de la liaison.",
+        "Détection restaurée après redémarrage ou mise à jour sans nouvel appairage."
+      ],
+      "artifactName": "HAL_Mobile_0.52.0.apk",
+      "sha256": "5949de4468b1438aa6061ecfcece7ae51b4b7eed569ffe5297fda57db814d6ce",
+      "signature": "MEUCIQCkEoDzU2UPkFh1RPxtIij3BgjHvGLXfi+n2WxiEZSUVwIgC6idNMX1+9X+a6SF/AqM43nJyaP4ZAemKrrjxiFtQ9w=",
+      "sizeBytes": 53485659,
+      "publishedAt": "2026-08-31T16:35:08+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.52.0.apk"
     }
   ]
 }
