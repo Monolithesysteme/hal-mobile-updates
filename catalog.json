@@ -2,28 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.51.0-stable",
-      "platform": "android",
-      "version": "0.51.0",
-      "title": "HAL Mobile 0.51.0 — Atlas et lecture interactive",
-      "changelog": [
-        "Carte Atlas vectorielle avec domicile, travail et positions autorisées.",
-        "Partage GPS ponctuel ou périodique après consentement explicite et révocable.",
-        "Trajets chiffrés avec distance, durée et mode de déplacement estimé.",
-        "Courbes Santé tactiles : appui-glissement pour afficher la date et la valeur réelle.",
-        "Avatars distincts pour l’utilisateur et l’œil HAL dans la conversation.",
-        "Télémétrie batterie du Pixel transmise à HAL PC sans interrogation supplémentaire.",
-        "Splash portrait avec messages d’ambiance variés et transition en fondu."
-      ],
-      "artifactName": "HAL_Mobile_0.51.0.apk",
-      "sha256": "b5af24610081d74aef1e2dca3d7b7d6b0cf69611784a245c203465536a78130b",
-      "signature": "MEUCIQChgHcNi+wgVs/d6PyDBJFr1+CKORuV+SyJPkTD++U12QIgP0NpJsoQdfnI+K2aBXFloKKRIvdhzr7dpbOKA23XrKk=",
-      "sizeBytes": 53210290,
-      "publishedAt": "2026-08-31T05:19:25+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.51.0.apk"
-    },
-    {
       "id": "android-0.51.1-stable",
       "platform": "android",
       "version": "0.51.1",
@@ -60,6 +38,24 @@
       "publishedAt": "2026-08-31T16:35:08+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.52.0.apk"
+    },
+    {
+      "id": "android-0.53.0-stable",
+      "platform": "android",
+      "version": "0.53.0",
+      "title": "HAL Mobile 0.53.0 - retour d'interaction immédiat",
+      "changelog": [
+        "Retour haptique discret et enfoncement visuel immédiat sur les commandes.",
+        "Œil HAL animé et message réel pendant les opérations longues, sans progression inventée.",
+        "Chat réactif, protection contre les doubles déclenchements et libération après délai dépassé."
+      ],
+      "artifactName": "HAL_Mobile_0.53.0.apk",
+      "sha256": "01bdd2e3b612dc75b2b8172faba5e94f79665e5d43a3f36175b4f72205968a50",
+      "signature": "MEUCIENujNLLXY9ZlpW6toT4IpEmIEStV/h5v6ZNfNoG4pOOAiEA/2NQ6PRAMzpFVBj5zq/hl81JgpcEYzUoRGb1hXtDXFo=",
+      "sizeBytes": 53486059,
+      "publishedAt": "2026-08-31T16:56:53+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.53.0.apk"
     }
   ]
 }
