@@ -2,23 +2,6 @@
   "format": "hal-update-catalog-v1",
   "releases": [
     {
-      "id": "android-0.48.3-stable",
-      "platform": "android",
-      "version": "0.48.3",
-      "title": "HAL Mobile 0.48.3 - historique système 24 heures",
-      "changelog": [
-        "Version commune avec HAL PC 0.48.3.",
-        "Les courbes système PC disposent désormais d'une échelle persistante de 24 heures."
-      ],
-      "artifactName": "HAL_Mobile_0.48.3.apk",
-      "sha256": "02543c8655258de18d92c9ec4234d76f9ec0d22948979f3732283aa33102ede1",
-      "signature": "MEUCIQChvYbMPspatnrQgP6Jdbi2y32rjw6mpIlr+HW8phFnGAIgf0PFwsVXWOnc6xQHEGNj014pUhSvzXFqI/e7SYZvoV8=",
-      "sizeBytes": 4098962,
-      "publishedAt": "2026-08-30T08:39:13+00:00",
-      "channel": "stable",
-      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.48.3.apk"
-    },
-    {
       "id": "android-0.49.0-stable",
       "platform": "android",
       "version": "0.49.0",
@@ -53,6 +36,28 @@
       "publishedAt": "2026-08-30T09:33:16+00:00",
       "channel": "stable",
       "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.50.0.apk"
+    },
+    {
+      "id": "android-0.51.0-stable",
+      "platform": "android",
+      "version": "0.51.0",
+      "title": "HAL Mobile 0.51.0 — Atlas et lecture interactive",
+      "changelog": [
+        "Carte Atlas vectorielle avec domicile, travail et positions autorisées.",
+        "Partage GPS ponctuel ou périodique après consentement explicite et révocable.",
+        "Trajets chiffrés avec distance, durée et mode de déplacement estimé.",
+        "Courbes Santé tactiles : appui-glissement pour afficher la date et la valeur réelle.",
+        "Avatars distincts pour l’utilisateur et l’œil HAL dans la conversation.",
+        "Télémétrie batterie du Pixel transmise à HAL PC sans interrogation supplémentaire.",
+        "Splash portrait avec messages d’ambiance variés et transition en fondu."
+      ],
+      "artifactName": "HAL_Mobile_0.51.0.apk",
+      "sha256": "b5af24610081d74aef1e2dca3d7b7d6b0cf69611784a245c203465536a78130b",
+      "signature": "MEUCIQChgHcNi+wgVs/d6PyDBJFr1+CKORuV+SyJPkTD++U12QIgP0NpJsoQdfnI+K2aBXFloKKRIvdhzr7dpbOKA23XrKk=",
+      "sizeBytes": 53210290,
+      "publishedAt": "2026-08-31T05:19:25+00:00",
+      "channel": "stable",
+      "artifactUrl": "https://raw.githubusercontent.com/Monolithesysteme/hal-mobile-updates/main/HAL_Mobile_0.51.0.apk"
     }
   ]
 }
